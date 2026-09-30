@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
 
-from ai_core.gemini_generator import GeminiDocumentGenerator
+from ai_core import GeminiDocumentGenerator
 from config import settings
 from schemas import DocumentRequest, DocumentResponse
 
